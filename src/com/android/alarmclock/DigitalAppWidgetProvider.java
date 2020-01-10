@@ -484,7 +484,7 @@ public class DigitalAppWidgetProvider extends AppWidgetProvider {
         private int mIconPaddingPx;
 
         private Sizes(int targetWidthPx, int targetHeightPx, int largestClockFontSizePx) {
-            mTargetWidthPx = targetWidthPx;
+            mTargetWidthPx = targetWidthPx - 60;
             mTargetHeightPx = targetHeightPx;
             mLargestClockFontSizePx = largestClockFontSizePx;
             mSmallestClockFontSizePx = 1;
